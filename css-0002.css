@@ -1,0 +1,100 @@
+button {
+    all: unset;
+    outline: none;
+    background: none;
+    border: none;
+    position: absolute;
+    padding: 0px 0px 0px 0px;
+    margin-top: 10px;
+    margin-left: 10px;
+    cursor: pointer;
+}
+
+.cover-photo {
+
+    position: absolute;
+    top: 20px;
+    right: 20px;
+
+}
+
+.footer{
+    padding: none;
+    position: absolute;
+    text-align: center;
+    margin-left: 10px;
+    bottom: 0px;
+
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+a:hover {
+    text-decoration: none;
+    color: #00ff00;
+}
+
+.info{
+    text-align: left;
+    cursor: text;
+    padding: 5px 5px 5px 5px;
+    margin: 0px 0px 0px 0px;
+}
+
+.overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1000;
+}
+
+/* Modal */
+.modal {
+    background: #fff;
+    height: 366px;
+    width: 198px;
+    position: absolute;
+}
+
+.modal-header {
+    border-top: solid 1px black;
+    border-left: solid 1px black;
+    border-right: solid 1px black;
+    height: 20px;
+    background: #fff;
+    color: #fff;
+    display: flex;
+    vertical-align: center;
+    justify-content: left;
+    cursor: -moz-grab;
+    cursor: -moz-grabbing;
+}
+
+.close-button {
+    position: absolute;
+    padding: 0px 0px 0px 0px;
+    margin-top: 5px;
+    margin-left: 5px;
+    margin-bottom: 5px;
+    outline: none;
+    background: none;
+    border: none;
+    font-size: 10px;
+    color: #fff;
+    cursor: pointer;
+}
+
+.modal-body {
+    border: solid 1px black;
+    height: 366px
+    padding: 0px 0px 0px 0px;
+    cursor: default;
+}
